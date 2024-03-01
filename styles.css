@@ -1,0 +1,51 @@
+@import url(https://fonts.google.com/specimen/Figtree);
+
+:root{
+    --white: hsl(0, 0%, 100%);
+    --gray:hsl(0, 0%, 50%);
+    --black: hsl(0, 0%, 7%);
+    --yellow: hsl(47, 88%, 63%);
+}
+body{
+    background-color: var(--yellow);
+}
+.card-wrapper{
+    border: 1px solid var(--black);
+    font-family: "Figtree", sans-serif;
+    border-radius: 2.125rem;
+    height: 31.25rem;
+    background-color: var(--white);
+    padding: 10px;
+    margin-top: 50px;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    box-shadow: 5px 10px var(--black);
+}
+
+section #banner{
+    border-radius: 10px;
+    padding: 10px;
+    width: 50%;
+}
+
+
+section>strong{
+    display: block;
+    margin-bottom: 1.25rem;
+    background-color: var(--yellow);
+    width: 75px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+section p{
+    color: var(--gray);
+    font-size: 16px;
+}
+
+h1:hover{
+    color: var(--yellow);
+}
+
+
